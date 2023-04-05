@@ -14,7 +14,7 @@ const News = () => {
   useEffect(() => {
     const getData = async () => {
       try {
-        const geti = await fetch("https://football-360-api.onrender.com");
+        const geti = await fetch("https://football-360-api.onrender.com/");
         const res = await geti.json();
         setUpdates(res);
         console.log(res);

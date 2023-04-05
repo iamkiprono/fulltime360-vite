@@ -23,6 +23,9 @@ const AddNews = () => {
       setStatus("Added");
       window.location.reload()
     }
+    else{
+      console.log(response)
+    }
   };
 
   return (
